@@ -27,6 +27,7 @@
 	if (isset($_GET['q']))
 	{
 		$fName =  $_GET['q'] . '.inc';
+		// PTAI:Suppress
 		include (checkFile($fName));
 	}
 	else
